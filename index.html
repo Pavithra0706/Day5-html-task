@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+     .container{
+       border: 1px solid black;
+       margin:auto;
+       height:400px;
+       width:700px;
+       padding: 0px;
+       flex-wrap: wrap;
+     }
+     h2{
+       text-align: center;
+       border:1px solid black;
+       margin: 20px;
+       width: 650px;
+       height:30px; 
+     }
+     .col{
+       display: inline-block;
+       border:1px solid black;
+       margin: 10px;
+       text-align: center;
+       justify-content: center;
+       width: 150px;
+       height: 140px;
+       justify-items: space-between;
+       align-items: center;
+      } 
+    img{
+      width: 50px;
+      height:100px;
+      float:left;
+      margin:10px;
+     }
+    .col.right{
+      float:right;
+      display: flex;
+      justify-content: space-between;
+      padding: 40px;
+      width:40%;
+      margin:10px;
+    }
+    .col2{
+      display: inline-block;
+       border:1px solid black;
+       margin: 10px;
+       text-align: center;
+       justify-content: center;
+       width: 150px;
+       height: 140px;
+       justify-items: space-between;
+       align-items: center;
+    }
+    img{
+      width: 50px;
+      height:100px;
+      float:left;
+      margin:10px;
+     }
+     .col2.right{
+      float:right;
+      display: flex;
+      justify-content: space-between;
+      padding: 40px;
+      width:40%;
+      margin:10px;
+    }
+    .col3{
+      display: inline-block;
+       border:1px solid black;
+       margin: 10px;
+       text-align: center;
+       justify-content: center;
+       width: 150px;
+       height: 140px;
+       justify-items: space-between;
+       align-items: center;
+    }
+    img{
+      width: 50px;
+      height:100px;
+      float:left;
+      margin:10px;
+     }
+     .col3.right{
+      float:right;
+      display: flex;
+      justify-content: space-between;
+      padding: 40px;
+      width:40%;
+      margin:10px;
+    }
+    .col4{
+      display: inline-block;
+       border:1px solid black;
+       margin: 10px;
+       text-align: center;
+       justify-content: center;
+       width: 150px;
+       height: 140px;
+       justify-items: space-between;
+       align-items: center;
+    }
+    img{
+      width: 50px;
+      height:100px;
+      float:left;
+      margin:10px;
+     }
+     .col4.right{
+      float:right;
+      display: flex;
+      justify-content: space-between;
+      padding: 40px;
+      width:40%;
+      margin:10px;
+    }
+    .row{
+      display: inline-block;
+       border:1px solid black;
+       margin: 10px;
+       text-align: center;
+       justify-content: center;
+       width: 150px;
+       height: 140px;
+       justify-items: space-between;
+       align-items: center;
+    }
+    img{
+      width: 50px;
+      height:100px;
+      float:left;
+      margin:10px;
+     }
+     .row.right{
+      float:right;
+      display: flex;
+      justify-content: space-between;
+      padding: 40px;
+      width:40%;
+      margin:10px;
+    }
+    .row2{
+      display: inline-block;
+       border:1px solid black;
+       margin: 10px;
+       text-align: center;
+       justify-content: center;
+       width: 150px;
+       height: 140px;
+       justify-items: space-between;
+       align-items: center;
+    }
+    img{
+      width: 50px;
+      height:100px;
+      float:left;
+      margin:10px;
+     }
+     .row2.right{
+      float:right;
+      display: flex;
+      justify-content: space-between;
+      padding: 40px;
+      width:40%;
+      margin:10px;
+    }
+    .row3{
+      display: inline-block;
+       border:1px solid black;
+       margin: 10px;
+       text-align: center;
+       justify-content: center;
+       width: 150px;
+       height: 140px;
+       justify-items: space-between;
+       align-items: center;
+    }
+    img{
+      width: 50px;
+      height:100px;
+      float:left;
+      margin:10px;
+     }
+     .row3.right{
+      float:right;
+      display: flex;
+      justify-content: space-between;
+      padding: 40px;
+      width:40%;
+      margin:10px;
+    }
+    .row4{
+      display: inline-block;
+       border:1px solid black;
+       margin: 10px;      
+       text-align: center;
+       justify-content: center;
+       width: 150px;
+       height: 140px;
+       justify-items: space-between;
+       align-items: center;
+    }
+    img{
+      width: 50px;
+      height:100px;
+      float:left;
+      margin:10px;      
+     }
+     .row4.right{
+      float:right;
+      display: flex;
+      justify-content: space-between;
+      padding: 40px;
+      width:40%;
+      margin:10px;
+    }
+    @media screen and (max-width: 800px) {
+        .container, h2, img, .col, .col.right, .col2,.col2.right,.col3,.col3.right,.col4,.col4.right,.row,.row.right,.row2,.row2.right,.row3,.row3.right,.row4,.row4.right{
+         width: 100%; 
+  }
+}     
+   </style>
+    
+</head>
+<body>
+    <div class="container">
+      <h2>SEARCH   EVENTS</h2>
+      <div class="child1">
+             
+            <div class="col">Event 1
+              <div class="left">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.D4rBKqfyZWI594gzdUyhMAHaJ4&pid=Api&P=0&h=180">
+              </div>
+              <div class="right">
+                 <h6>23-may-20
+                 <p>Available seats:24</p>
+                <button>Book now</button></h6>
+              </div>
+            </div>
+            <div class="col2">Event 2
+              <div class="left">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.D4rBKqfyZWI594gzdUyhMAHaJ4&pid=Api&P=0&h=180">
+              </div>
+              <div class="right">
+                 <h6>23-may-20
+                 <p>Available seats:24</p>
+                <button>Book now</button></h6>
+              </div>
+            </div>
+            <div class="col3">Event 3
+              <div class="left">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.b53R94UnRY5vMFXEbpGoKgHaHH&pid=Api&P=0&h=180">
+              </div>
+              <div class="right">
+                 <h6>23-may-20
+                 <p>Available seats:No</p>
+                <button>sold out</button></h6>
+              </div>
+            </div>
+            <div class="col4">Event 4
+              <div class="left">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.D4rBKqfyZWI594gzdUyhMAHaJ4&pid=Api&P=0&h=180">
+              </div>
+              <div class="right">
+                 <h6>23-may-20
+                 <p>Available seats:24</p>
+                <button>Book now</button></h6>
+              </div>
+            </div>
+          
+          </div>
+          <div class="child2">
+        
+            <div class="row">Event 5
+              <div class="left">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.D4rBKqfyZWI594gzdUyhMAHaJ4&pid=Api&P=0&h=180">
+              </div>
+              <div class="right">
+                 <h6>23-may-20
+                 <p>Available seats:24</p>
+                <button>Book now</button></h6>
+              </div>
+            </div>
+            <div class="row2">Event 6
+              <div class="left">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.b53R94UnRY5vMFXEbpGoKgHaHH&pid=Api&P=0&h=180">
+              </div>
+              <div class="right">
+                 <h6>23-may-20
+                 <p>Available seats:No</p>
+                <button>sold out</button></h6>
+              </div>
+            </div>
+            <div class="row3">Event 7
+              <div class="left">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.D4rBKqfyZWI594gzdUyhMAHaJ4&pid=Api&P=0&h=180">
+              </div>
+              <div class="right">
+                 <h6>23-may-20
+                 <p>Available seats:24</p>
+                <button>Book now</button></h6>
+              </div>
+            </div>
+            <div class="row4">Event 8
+              <div class="left">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.D4rBKqfyZWI594gzdUyhMAHaJ4&pid=Api&P=0&h=180">
+              </div>
+              <div class="right">
+                 <h6>23-may-20
+                 <p>Available seats:24</p>
+                <button>Book now</button></h6>
+              </div>
+            </div>
+          
+          </div>
+          </div>   
+</body>
+</html>
